@@ -212,12 +212,12 @@ The backend is built with Django REST Framework. The main route groups are:
 | --- | --- | --- |
 | `/api/targets/` | List active reports and submit a report | Public read; authenticated write |
 | `/api/shelters/` | List shelter locations | Public |
-| `/api/users/register/` | Create an account | Public |
-| `/api/users/me/` | Read or update the current profile | Authenticated |
-| `/api/users/me/avatar/` | Upload a profile avatar | Authenticated |
-| `/api/users/me/location/` | Update the last known location | Authenticated |
-| `/api/users/me/telegram/` | Configure Telegram notification settings | Authenticated |
-| `/api/users/me/telegram/link/` | Generate a one-time Telegram linking code | Authenticated |
+| `/api/register/` | Create an account | Public |
+| `/api/me/` | Read or update the current profile | Authenticated |
+| `/api/me/avatar/` | Upload a profile avatar | Authenticated |
+| `/api/me/location/` | Update the last known location | Authenticated |
+| `/api/me/telegram/` | Configure Telegram notification settings | Authenticated |
+| `/api/me/telegram/link/` | Generate a one-time Telegram linking code | Authenticated |
 
 Authentication uses JWT. The exact route configuration is defined in the Django URL modules.
 
