@@ -2,6 +2,8 @@
 
 **A community-powered aerial threat awareness and alert platform.**
 
+<img width="1085" height="715" alt="Screenshot 2026-11-02 at 12 03 18" src="https://github.com/user-attachments/assets/2cc06439-bc2c-44a9-a906-daa1149e21b4" />
+
 SkyGuard helps people share reports of potential aerial threats, view reported incidents on a live map, locate nearby shelters, and receive location-based notifications through Telegram.
 
 The project was built for **Hack4Defence**. It combines a React map interface, a Django REST API, community-submitted reports, and Telegram messaging to make local threat information easier to access.
